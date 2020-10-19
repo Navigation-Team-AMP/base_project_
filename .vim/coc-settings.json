@@ -1,5 +1,10 @@
 {
+<<<<<<< HEAD
   "python.linting.pylintEnabled": false,
   "python.linting.mypyEnabled": true,
+=======
+  "python.linting.pylintEnabled": true,
+  "python.linting.mypyEnabled": false,
+>>>>>>> 4681f02094c2e6278a128e8ff103d8d749da40be
   "python.linting.enabled": true
 }
