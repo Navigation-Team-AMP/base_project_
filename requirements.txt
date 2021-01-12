@@ -1,0 +1,16 @@
+#use ```pip install -r requirements``` (replace pip w pip3 if on linux)
+numpy
+matplotlib
+jupyter
+pillow
+scikit-learn
+scikit-image
+scipy
+h5py
+eventlet
+flask-socketio
+seaborn
+pandas
+imageio
+python-socketio 
+# missing openCV, download on your own
