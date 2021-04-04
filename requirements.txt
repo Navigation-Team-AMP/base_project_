@@ -8,9 +8,9 @@ scikit-image
 scipy
 h5py
 eventlet
-flask-socketio
 seaborn
 pandas
 imageio
-python-socketio 
+python-socketio==4.6.0
+python-engineio==3.13.2 
 # missing openCV, download on your own

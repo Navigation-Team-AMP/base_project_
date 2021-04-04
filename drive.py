@@ -70,12 +70,14 @@ def send_control(steering_angle, throttle):
             'throttle': throttle.__str__()
         },
         skip_sid=True)
+    print("here")
 
 
 if __name__ == '__main__':
     
     # wrap Flask application with engineio's middleware
     app = socketio.Middleware(sio, app)
+
 
     # deploy as an eventlet WSGI server
     eventlet.wsgi.server(eventlet.listen(('', 4567)), app)

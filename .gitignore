@@ -9,6 +9,9 @@ driving_log.csv
 
 # venv
 bin/
+lib/
+share/
+etc/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -82,7 +82,7 @@ class Model():
         cfg.batch_size = 100
         cfg.test_rate = 10
         cfg.test_epochs = 1
-        cfg.train_epochs = 400
+        cfg.train_epochs = 100
         cfg.optimizer = 'adam'
         cfg.cuda = False
 
